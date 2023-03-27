@@ -8,18 +8,20 @@ import { saveList } from "./Nxtwatch/stores";
 
 import { Provider } from "mobx-react";
 
-const App = () => (
-  <Provider saveList={saveList} toggleTheme={toggleTheme}>
-    <>
-      <BrowserRouter>
-        <Switch>
-          {AuthenticationRoute}
-          {NxtWatchRouteContainer}
-          <Redirect to="/not-found" />
-        </Switch>
-      </BrowserRouter>
-    </>
-  </Provider>
-);
+const App = () => {
+  return (
+    <Provider saveList={saveList} toggleTheme={toggleTheme}>
+      <>
+        <BrowserRouter>
+          <Switch>
+            {AuthenticationRoute}
+            {NxtWatchRouteContainer}
+            <Redirect to="/not-found" />
+          </Switch>
+        </BrowserRouter>
+      </>
+    </Provider>
+  );
+};
 
 export default App;

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import "./Common/i18n/index";
+import "./Common/components/i18n/index";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

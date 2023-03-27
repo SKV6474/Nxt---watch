@@ -8,12 +8,32 @@ import SavedVideosRoute from "./SavedVideosPage/index";
 import NotFoundPage from "../../Common/components/NotFoundPage";
 
 const NxtWatchRouteContainer = [
-  <ProtectedRoute exact path="/" component={HomeRoute} />,
-  <ProtectedRoute exact path="/videos/:id" component={VideoItemDetailsRoute} />,
-  <ProtectedRoute exact path="/trending" component={TrendingRoute} />,
-  <ProtectedRoute exact path="/gaming" component={GamingRoute} />,
-  <ProtectedRoute exact path="/saved-videos" component={SavedVideosRoute} />,
-  <ProtectedRoute exact path="/not-found" component={NotFoundPage} />,
+  <ProtectedRoute key="/" exact path="/" component={HomeRoute} />,
+  <ProtectedRoute
+    key="/videos/:id"
+    exact
+    path="/videos/:id"
+    component={VideoItemDetailsRoute}
+  />,
+  <ProtectedRoute
+    key="/trending"
+    exact
+    path="/trending"
+    component={TrendingRoute}
+  />,
+  <ProtectedRoute key="/gaming" exact path="/gaming" component={GamingRoute} />,
+  <ProtectedRoute
+    key="/saved-videos"
+    exact
+    path="/saved-videos"
+    component={SavedVideosRoute}
+  />,
+  <ProtectedRoute
+    key="/not-found"
+    exact
+    path="/not-found"
+    component={NotFoundPage}
+  />,
 ];
 
 export { NxtWatchRouteContainer };

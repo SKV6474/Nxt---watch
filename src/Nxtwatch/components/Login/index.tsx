@@ -23,7 +23,7 @@ import {
 
 const LoginComponent = (props: LoginSubmit) => {
   const { onSubmitForm } = props;
-  const { t, i18n } = useTranslation("translation");
+  const { t, i18n } = useTranslation();
 
   const [isShowPassword, setIsShowPassword] = useState<boolean>(false);
   const [userDetails, setUserDeatail] = useState<UserDeatailsType>({
