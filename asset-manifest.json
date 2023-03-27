@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NxtWatch/static/css/main.e6c13ad2.css",
+    "main.js": "/NxtWatch/static/js/main.42ad2b54.js",
+    "static/js/787.2294d2ac.chunk.js": "/NxtWatch/static/js/787.2294d2ac.chunk.js",
+    "index.html": "/NxtWatch/index.html",
+    "static/media/getFetch.cjs": "/NxtWatch/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.e6c13ad2.css.map": "/NxtWatch/static/css/main.e6c13ad2.css.map",
+    "main.42ad2b54.js.map": "/NxtWatch/static/js/main.42ad2b54.js.map",
+    "787.2294d2ac.chunk.js.map": "/NxtWatch/static/js/787.2294d2ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.42ad2b54.js"
+  ]
+}
