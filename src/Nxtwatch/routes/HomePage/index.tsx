@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-
-import WithHeader from "../../hocs/withHeaderHoc";
-import WithSideBar from "../../hocs/withSideBarHoc";
+import { observer } from "mobx-react";
 
 import Failure from "../../../Common/components/Failure";
 import Loader from "../../../Common/components/Loader";
 import LoadingWrapper from "../../../Common/components/LoadingWrapper";
+
+import WithHeader from "../../hocs/withHeaderHoc";
+import WithSideBar from "../../hocs/withSideBarHoc";
 
 import HomeBanner from "../../components/HomeBanner";
 import VideoCard from "../../components/HomeVideoLinkCard";
 import NoSearchResults from "../../components/NoSearchsResults";
 
 import { VideosList } from "../../interface";
-
-import { observer } from "mobx-react";
 import { homeList } from "../../stores";
 
 import {

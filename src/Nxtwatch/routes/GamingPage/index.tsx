@@ -4,6 +4,7 @@ import {
   ReactFragment,
   useEffect,
 } from "react";
+import { observer } from "mobx-react";
 
 import SideBarHeader from "../../../Common/components/sideBarHeader";
 import Failure from "../../../Common/components/Failure";
@@ -16,7 +17,6 @@ import WithSideBar from "../../hocs/withSideBarHoc/index";
 import GamingCard from "../../components/GamingCard";
 
 import { gameList } from "../../stores";
-import { observer } from "mobx-react";
 
 import {
   GameRouteContainer,

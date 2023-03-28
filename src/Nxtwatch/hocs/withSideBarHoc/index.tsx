@@ -2,9 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import Link from "../../components/Links";
-
 import { Props } from "../../interface";
-
 import {
   FACEBOOK_LOGO,
   LINKED_IN_LOGO,

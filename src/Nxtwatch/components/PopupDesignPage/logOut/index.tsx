@@ -1,6 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+
 import { LogoutFunctions } from "../../../interface";
+
 import {
   BtnContainer,
   CancelBtn,

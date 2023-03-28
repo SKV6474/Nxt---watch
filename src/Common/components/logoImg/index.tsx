@@ -1,7 +1,6 @@
-import { ImgDiv, Logoimg } from "../../../Nxtwatch/styledComponent";
-
 import "styled-components/macro";
 
+import { ImgDiv, Logoimg } from "../../../Nxtwatch/styledComponent";
 import { toggleTheme } from "../../../Nxtwatch/stores";
 import {
   NXT_WATCH_LOGO_DARK_THEME,

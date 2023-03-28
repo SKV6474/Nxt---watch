@@ -1,8 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import { NO_SAVED_VIDEOS } from "../../constants/Images";
-
 import {
   NoSavedContainer,
   NoSavedContent,
@@ -10,6 +8,8 @@ import {
   NoSavedContentTitle,
   NoSavedImg,
 } from "../../../Nxtwatch/styledComponent";
+
+import { NO_SAVED_VIDEOS } from "../../constants/Images";
 
 const NoSavedVideosRoute = () => {
   const { t } = useTranslation();

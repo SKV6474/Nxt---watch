@@ -1,8 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import { GameObject } from "../../interface";
-
 import {
   GameCard,
   GameDataCardDiv,
@@ -11,6 +9,8 @@ import {
   ShortDataGame,
   ShortDataGamUpper,
 } from "../../../Nxtwatch/styledComponent";
+
+import { GameObject } from "../../interface";
 
 const GamingCard = (props: { GameData: GameObject }) => {
   const { t } = useTranslation();

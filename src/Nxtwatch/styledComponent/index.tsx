@@ -225,7 +225,7 @@ export const SubHeaderIconContainer = styled.div`
 // TrendingSavedUI
 
 export const TrendingSavedUIContainer = styled.div`
-  padding: 40px 50px;
+  padding: 40px 50px 0px;
   @media screen and (max-width: 768px) {
     padding: 30px 40px;
   }
@@ -236,7 +236,7 @@ export const TrendingSavedUIContainer = styled.div`
 
 export const CardContainer = styled.div`
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   @media screen and (max-width: 576px) {
     flex-direction: column;
     margin-bottom: 35px;

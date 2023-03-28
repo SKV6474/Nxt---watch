@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-
-import { VideoDetailProps } from "../../interface";
-
-import { saveList } from "../../stores";
 import { inject } from "mobx-react";
 
 import { getTime } from "../../../Nxtwatch/utils";
+
+import { VideoDetailProps } from "../../interface";
+import { saveList } from "../../stores";
 
 import {
   BlanklineDiv,

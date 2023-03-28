@@ -1,13 +1,13 @@
-import WithHeader from "../../hocs/withHeaderHoc/index";
-import WithSideBar from "../../hocs/withSideBarHoc/index";
+import { inject, observer } from "mobx-react";
 
 import SideBarHeader from "../../../Common/components/sideBarHeader";
 import TrendingSavedUI from "../../../Common/components/trendingSavedUI";
 
-import NoSavedVideosRoute from "../../components/NoSavedVideo";
+import WithHeader from "../../hocs/withHeaderHoc/index";
+import WithSideBar from "../../hocs/withSideBarHoc/index";
 
+import NoSavedVideosRoute from "../../components/NoSavedVideo";
 import { saveList } from "../../stores";
-import { inject, observer } from "mobx-react";
 
 import { SideContentContainer } from "../../styledComponent";
 

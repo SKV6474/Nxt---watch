@@ -1,15 +1,12 @@
 import React from "react";
-
-import HeaderComponent from "../../components/Header";
-import { Props } from "../../interface/index";
+import { inject, observer } from "mobx-react";
+import { ThemeProvider } from "styled-components";
 
 import { toggleTheme } from "../../stores";
-import { inject, observer } from "mobx-react";
-
+import HeaderComponent from "../../components/Header";
+import { Props } from "../../interface/index";
 import { DarkTheme, LightTheme } from "../../constants/Color";
-
 import { Container, AppDiv } from "../../styledComponent";
-import { ThemeProvider } from "styled-components";
 
 const WithHeader = (
   WrappedComponent: React.ComponentType<any>

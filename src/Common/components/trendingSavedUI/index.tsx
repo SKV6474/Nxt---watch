@@ -1,9 +1,9 @@
 import React from "react";
+
 import { TrendingOrSaved } from "../../../Nxtwatch/interface";
+import { TrendingSavedUIContainer } from "../../../Nxtwatch/styledComponent";
 
 import VideoDescriptionCard from "./videoDescriptionCard";
-
-import { TrendingSavedUIContainer } from "../../../Nxtwatch/styledComponent";
 
 // props will be list of object for both saved and trending
 

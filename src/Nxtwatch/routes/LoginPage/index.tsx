@@ -1,16 +1,12 @@
 import { Redirect } from "react-router-dom";
 import Cookies from "js-cookie";
+import { inject, observer } from "mobx-react";
+import { ThemeProvider } from "styled-components";
 
 import { Props, UserDeatailsType } from "../../interface";
-
 import LoginComponent from "../../components/Login";
-
 import { toggleTheme } from "../../stores";
-import { inject, observer } from "mobx-react";
-
 import { DarkTheme, LightTheme } from "../../constants/Color";
-
-import { ThemeProvider } from "styled-components";
 
 const LoginRoute = inject("toggleTheme")(
   observer((props: Props) => {

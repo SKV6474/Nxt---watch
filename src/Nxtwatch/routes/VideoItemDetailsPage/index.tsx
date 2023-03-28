@@ -1,7 +1,16 @@
+import { useEffect, useState } from "react";
+import Cookies from "js-cookie";
+
+import Loader from "../../../Common/components/Loader";
+import LoadingWrapper from "../../../Common/components/LoadingWrapper";
+import Failure from "../../../Common/components/Failure";
+
 import WithHeader from "../../hocs/withHeaderHoc/index";
 import WithSideBar from "../../hocs/withSideBarHoc/index";
 
 import VideoDetail from "../../components/videoDetailUi";
+import { ApiStatus, OfVideoDetails, Props } from "../../interface";
+import { saveList } from "../../stores";
 
 import {
   SideContentContainer,
@@ -9,13 +18,6 @@ import {
   VideoFetchFailureContainer,
   VideoLoaderContainer,
 } from "../../styledComponent";
-import { ApiStatus, OfVideoDetails, Props } from "../../interface";
-import { useEffect, useState } from "react";
-import Cookies from "js-cookie";
-import Loader from "../../../Common/components/Loader";
-import LoadingWrapper from "../../../Common/components/LoadingWrapper";
-import Failure from "../../../Common/components/Failure";
-import { saveList } from "../../stores";
 
 const VideoItemDetailsRoute = (props: Props) => {
   const { match } = props;

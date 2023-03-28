@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { observer } from "mobx-react";
 
 import SideBarHeader from "../../../Common/components/sideBarHeader";
 import TrendingSavedUI from "../../../Common/components/trendingSavedUI";
@@ -10,7 +11,6 @@ import WithHeader from "../../hocs/withHeaderHoc/index";
 import WithSideBar from "../../hocs/withSideBarHoc/index";
 
 import { trendingList } from "../../stores";
-import { observer } from "mobx-react";
 
 import { LoaderContainer, SideContentContainer } from "../../styledComponent";
 
