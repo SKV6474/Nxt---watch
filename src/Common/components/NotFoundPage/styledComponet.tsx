@@ -25,7 +25,7 @@ export const NotFoundContentTitle = styled.div`
   font-size: 36px;
   height: 48px;
   font-weight: 500;
-  color: ${(props) => props.theme.color};
+  color: ${(props) => props.theme.COLOR};
   margin: 40px 0 30px;
   @media screen and (max-width: 576px) {
     font-size: 28px;
